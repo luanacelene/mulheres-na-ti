@@ -1,0 +1,85 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    background-image: url('../image/foto1.jpg');
+    width: 96vw;
+    height: 92vh;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: none;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 43px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+div {
+    font-size: 5px;
+    text-align: right;
+    margin: 0;
+}
+
+.index,
+.fotos,
+.contatos {
+    background-color: rgb(114, 106, 106);
+    color: rgb(233, 232, 232);
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: center;
+}
+
+.index:hover {
+    transition: .3s ease-in-out;
+    background-color: rgb(102, 121, 121);
+}
+
+.fotos:hover {
+    transition: .3s ease-in-out;
+    background-color: rgb(102, 121, 121);
+}
+
+.contatos:hover {
+    transition: .3s ease-in-out;
+    background-color: rgb(102, 121, 121);
+}
+
+.voltar {
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 5px;
+    border-radius: 8px;
+    margin: center;
+}
+
+.voltar:hover {
+    transition: .3s ease-in-out;
+    background-color: rgb(102, 121, 121);
+}
+
+.paragrafo {
+    width: 62%;
+    background-color: rgba(219, 218, 241, 0.8);
+    padding: 15px;
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    margin-top: 275px;
+}
+
+.mulheresnati,
+.mulheresnati2,
+.mulheresnati4 {
+    width: 400px;
+    height: 400px;
+}

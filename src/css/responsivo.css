@@ -1,0 +1,77 @@
+@media (max-width: 415px) {
+
+    body {
+        background-image: url('../image/foto3.jpg');
+        width: 125%;
+        background-size: cover/center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        overflow: none;
+    }
+
+    .titulo {
+        text-align: left;
+        font-size: 28px;
+    }
+
+    div {
+        font-size: 5px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .paragrafo {
+        background-color: rgba(219, 218, 241, 0.8);
+        display: inline-block;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .mulheresnati,
+    .mulhernati2,
+    .mulheresnati4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .index,
+    .fotos,
+    .contatos {
+        background-color: rgb(76, 78, 78);
+    }
+}
+
+@media (min-width: 416px) and (max-width:1023) {
+
+    body {
+        width: 125%;
+        background-size: cover/center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        overflow: none;
+    }
+
+    .titulo {
+        text-align: left;
+        font-size: 80px;
+    }
+
+    div {
+        font-size: 5px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .paragrafo {
+        background-color: rgba(219, 218, 241, 0.8);
+        display: inline-block;
+        text-align: left;
+        font-size: 13px;
+    }
+
+    .mulheresnati,
+    .mulhernati2,
+    .mulheresnati4 {
+        width: 200px;
+        height: 200px;
+    }
+
+}
